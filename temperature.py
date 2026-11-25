@@ -159,3 +159,4 @@ class Temperature:
         if not isinstance(other, Temperature):  # only temperatures can be compared
             return NotImplemented
         return self._kelvin_difference(other) >= -self.TOLERANCE
+    
